@@ -8,6 +8,9 @@ namespace CheckMate.Controllers
 {
     public class CheckMateController : Controller
     {
-
+        public string Detail()
+        {
+            return "Hello World!";
+        }
     }
 }
